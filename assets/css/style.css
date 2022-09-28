@@ -8,7 +8,12 @@
     --table-primary-color:orangered;
     --table-secondary-color: #000;
     --table-cell-width: 450px;
+    --table-cell-width-tablet: 250px;
     --table-font-color: #fff;
+    --table-cell-padding: 48px;
+    --table-cell-netbook: 36px;
+    --table-cell-tablet: 24px;
+    --table-cell-mobile: 12px;
 }
 
 body{
@@ -243,3 +248,9 @@ strong {
     order: 5;
 }
 
+
+@media (max-width: 767px) {  /*если меньше*/
+    .page-title {
+        font-size: 28px;
+    }
+}
