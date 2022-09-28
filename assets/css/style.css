@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&family=Merriweather:ital,wght@0,300;0,400;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Rubik+Dirt&display=swap');
 @import url('header.css');
+@import url('table-tag.css');
 
+:root {
+    --background: #ffffff;
+    --table-primary-color:orangered;
+    --table-secondary-color: #000;
+    --table-cell-width: 450px;
+    --table-font-color: #fff;
+}
 
 body{
     font-family: 'Merriweather', serif;
